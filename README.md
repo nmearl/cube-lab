@@ -1,4 +1,4 @@
-# cube_lab
+# cubelab
 
 CubeViz for the web
 
@@ -10,7 +10,7 @@ CubeViz for the web
 ## Installation
 
 ```bash
-jupyter labextension install cube_lab
+jupyter labextension install cubelab
 ```
 
 ## Development

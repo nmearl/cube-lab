@@ -96,7 +96,7 @@ class PlotlyWidget extends Widget {
 }
 
 function activate(app: JupyterLab, palette: ICommandPalette, restorer: ILayoutRestorer) {
-  console.log('JupyterLab extension cube_lab is activated!');
+  console.log('JupyterLab extension cubelab is activated!');
 
   // Create xkcd widget
   let widget: PlotlyWidget;
@@ -145,10 +145,10 @@ function activate(app: JupyterLab, palette: ICommandPalette, restorer: ILayoutRe
 }
 
 /**
- * Initialization data for the cube_lab extension.
+ * Initialization data for the cubelab extension.
  */
 const extension: JupyterLabPlugin<void> = {
-  id: 'cube_lab',
+  id: 'cubelab',
   autoStart: true,
   requires: [ICommandPalette, ILayoutRestorer],
   activate: activate
